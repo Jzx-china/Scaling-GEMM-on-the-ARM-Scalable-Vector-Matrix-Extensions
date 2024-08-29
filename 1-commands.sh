@@ -32,7 +32,7 @@ function run_command {
 }
 
 # 定义日志文件
-LOGFILE="logfile.txt"
+LOGFILE="1-logfile.txt"
 
 # 定义输出文件夹
 # OUTPUT_DIR="gem5output/TimingSimple"
