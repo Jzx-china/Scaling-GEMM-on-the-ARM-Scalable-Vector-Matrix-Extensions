@@ -1,0 +1,418 @@
+Script started at Wed Jul 31 14:29:20 UTC 2024
+Running command: build/ARM/gem5.opt configs/withcache/n/128size-128kb-n.py at Wed Jul 31 14:29:20 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 14:29:29
+gem5 executing on 0215b0811b9e, pid 62
+command line: build/ARM/gem5.opt configs/withcache/n/128size-128kb-n.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/128_n'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 82439910250 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/n/128size-128kb-n.py' completed at Wed Jul 31 14:33:11 UTC 2024
+Copied stats to gem5output/stats-128size-128kb-n.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/128size-128kb-sve.py at Wed Jul 31 14:33:11 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 14:33:14
+gem5 executing on 0215b0811b9e, pid 87
+command line: build/ARM/gem5.opt configs/withcache/sve/128size-128kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/128_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 19771411750 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/128size-128kb-sve.py' completed at Wed Jul 31 14:34:15 UTC 2024
+Copied stats to gem5output/stats-128size-128kb-sve.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/n/128size-256kb-n.py at Wed Jul 31 14:34:15 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 14:34:23
+gem5 executing on 0215b0811b9e, pid 112
+command line: build/ARM/gem5.opt configs/withcache/n/128size-256kb-n.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/128_n'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 82327032500 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/n/128size-256kb-n.py' completed at Wed Jul 31 14:37:47 UTC 2024
+Copied stats to gem5output/stats-128size-256kb-n.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/128size-256kb-sve.py at Wed Jul 31 14:37:47 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 14:37:50
+gem5 executing on 0215b0811b9e, pid 137
+command line: build/ARM/gem5.opt configs/withcache/sve/128size-256kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/128_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 19698329250 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/128size-256kb-sve.py' completed at Wed Jul 31 14:38:32 UTC 2024
+Copied stats to gem5output/stats-128size-256kb-sve.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/n/128size-512kb-n.py at Wed Jul 31 14:38:32 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 14:38:34
+gem5 executing on 0215b0811b9e, pid 162
+command line: build/ARM/gem5.opt configs/withcache/n/128size-512kb-n.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/128_n'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 82326693750 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/n/128size-512kb-n.py' completed at Wed Jul 31 14:42:08 UTC 2024
+Copied stats to gem5output/stats-128size-512kb-n.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/128size-512kb-sve.py at Wed Jul 31 14:42:08 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 14:42:10
+gem5 executing on 0215b0811b9e, pid 187
+command line: build/ARM/gem5.opt configs/withcache/sve/128size-512kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/128_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 19697958000 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/128size-512kb-sve.py' completed at Wed Jul 31 14:42:55 UTC 2024
+Copied stats to gem5output/stats-128size-512kb-sve.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/n/256size-128kb-n.py at Wed Jul 31 14:42:55 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 14:42:58
+gem5 executing on 0215b0811b9e, pid 212
+command line: build/ARM/gem5.opt configs/withcache/n/256size-128kb-n.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/256_n'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1590663267000 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/n/256size-128kb-n.py' completed at Wed Jul 31 15:09:15 UTC 2024
+Copied stats to gem5output/stats-256size-128kb-n.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/256size-128kb-sve.py at Wed Jul 31 15:09:15 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 15:09:17
+gem5 executing on 0215b0811b9e, pid 237
+command line: build/ARM/gem5.opt configs/withcache/sve/256size-128kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/256_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 422627212500 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/256size-128kb-sve.py' completed at Wed Jul 31 15:15:29 UTC 2024
+Copied stats to gem5output/stats-256size-128kb-sve.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/n/256size-256kb-n.py at Wed Jul 31 15:15:29 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 15:15:31
+gem5 executing on 0215b0811b9e, pid 262
+command line: build/ARM/gem5.opt configs/withcache/n/256size-256kb-n.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/256_n'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 886448482500 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/n/256size-256kb-n.py' completed at Wed Jul 31 15:39:39 UTC 2024
+Copied stats to gem5output/stats-256size-256kb-n.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/256size-256kb-sve.py at Wed Jul 31 15:39:39 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 15:39:41
+gem5 executing on 0215b0811b9e, pid 287
+command line: build/ARM/gem5.opt configs/withcache/sve/256size-256kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/256_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 218670075000 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/256size-256kb-sve.py' completed at Wed Jul 31 15:45:16 UTC 2024
+Copied stats to gem5output/stats-256size-256kb-sve.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/n/256size-512kb-n.py at Wed Jul 31 15:45:16 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 15:45:18
+gem5 executing on 0215b0811b9e, pid 312
+command line: build/ARM/gem5.opt configs/withcache/n/256size-512kb-n.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/256_n'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 726913578500 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/n/256size-512kb-n.py' completed at Wed Jul 31 16:08:35 UTC 2024
+Copied stats to gem5output/stats-256size-512kb-n.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/256size-512kb-sve.py at Wed Jul 31 16:08:35 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 16:08:37
+gem5 executing on 0215b0811b9e, pid 337
+command line: build/ARM/gem5.opt configs/withcache/sve/256size-512kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/256_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 162505618750 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/256size-512kb-sve.py' completed at Wed Jul 31 16:14:04 UTC 2024
+Copied stats to gem5output/stats-256size-512kb-sve.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/n/512size-128kb-n.py at Wed Jul 31 16:14:04 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 16:14:06
+gem5 executing on 0215b0811b9e, pid 362
+command line: build/ARM/gem5.opt configs/withcache/n/512size-128kb-n.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/512_n'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 12978335804500 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/n/512size-128kb-n.py' completed at Wed Jul 31 19:41:38 UTC 2024
+Copied stats to gem5output/stats-512size-128kb-n.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/512size-128kb-sve.py at Wed Jul 31 19:41:38 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 19:41:44
+gem5 executing on 0215b0811b9e, pid 387
+command line: build/ARM/gem5.opt configs/withcache/sve/512size-128kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/512_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3727698354000 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/512size-128kb-sve.py' completed at Wed Jul 31 20:26:59 UTC 2024
+Copied stats to gem5output/stats-512size-128kb-sve.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/512size-256kb-sve.py at Wed Jul 31 20:26:59 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 20:27:01
+gem5 executing on 0215b0811b9e, pid 412
+command line: build/ARM/gem5.opt configs/withcache/sve/512size-256kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/512_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3727651547250 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/512size-256kb-sve.py' completed at Wed Jul 31 21:15:20 UTC 2024
+Copied stats to gem5output/stats-512size-256kb-sve.txt
+------------------------------
+Running command: build/ARM/gem5.opt configs/withcache/sve/512size-512kb-sve.py at Wed Jul 31 21:15:20 UTC 2024
+Global frequency set at 1000000000000 ticks per second
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.0
+gem5 compiled Jul 26 2024 06:31:19
+gem5 started Jul 31 2024 21:15:23
+gem5 executing on 0215b0811b9e, pid 437
+command line: build/ARM/gem5.opt configs/withcache/sve/512size-512kb-sve.py
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:85: warn: ignoring syscall rseq(...)
+      (further warnings will be suppressed)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1075: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/gem5/running/512_sve128'
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3727643825000 because exiting with last active thread context
+Command 'build/ARM/gem5.opt configs/withcache/sve/512size-512kb-sve.py' completed at Wed Jul 31 22:03:48 UTC 2024
+Copied stats to gem5output/stats-512size-512kb-sve.txt
+------------------------------
+Script finished at Wed Jul 31 22:03:48 UTC 2024
